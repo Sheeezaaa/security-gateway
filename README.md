@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Enterprise Multi-Tenant Security Gateway
 **CSC337 – Advanced Web Technologies – Lab Assignment 05**
 
@@ -91,3 +92,5 @@ Put the Client ID / Secret in `.env` (or the hosting dashboard). Add a callback 
 4. **RBAC rejection** log in as Employee → `POST /payroll/approve` and `DELETE /users/:id` → **403**.
    Manager → payroll OK, delete → 403. SuperAdmin → both OK.
 5. **OAuth** click "Login with Google/GitHub" on the home page.
+=======
+
