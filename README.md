@@ -1,6 +1,6 @@
 <<<<<<< HEAD
 # Enterprise Multi-Tenant Security Gateway
-**CSC337 – Advanced Web Technologies – Lab Assignment 05**
+
 
 Hybrid authentication (local Bcrypt + Google/GitHub OAuth 2.0), JWT access + refresh-token rotation
 (httpOnly cookies), Role-Based Access Control and OWASP hardening.
@@ -92,5 +92,12 @@ Put the Client ID / Secret in `.env` (or the hosting dashboard). Add a callback 
 4. **RBAC rejection** log in as Employee → `POST /payroll/approve` and `DELETE /users/:id` → **403**.
    Manager → payroll OK, delete → 403. SuperAdmin → both OK.
 5. **OAuth** click "Login with Google/GitHub" on the home page.
-=======
+
+
+<img width="1127" height="871" alt="file1" src="https://github.com/user-attachments/assets/4c2c1a56-eda0-4a15-8c49-143f322910cf" />
+<img width="697" height="550" alt="file2" src="https://github.com/user-attachments/assets/1a464a31-f4df-4b1c-b37a-d1be2fe14e67" />
+<img width="1502" height="902" alt="file3" src="https://github.com/user-attachments/assets/1e8fa781-4359-4f6a-9821-606345116902" />
+
+
+
 
